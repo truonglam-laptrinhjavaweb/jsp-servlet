@@ -1,1 +1,1 @@
-# project-jsp-servlet-jdbc-website-tin-tuc
+technology: jsp servlet jdbc
