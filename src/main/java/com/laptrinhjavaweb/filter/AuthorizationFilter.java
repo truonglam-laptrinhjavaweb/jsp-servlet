@@ -4,9 +4,9 @@ import com.laptrinhjavaweb.constant.SystemConstant;
 import com.laptrinhjavaweb.model.UserModel;
 import com.laptrinhjavaweb.utils.SessionUtil;
 
-import javax.servlet.*;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.*;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class AuthorizationFilter implements Filter {

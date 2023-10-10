@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title><dec:title default="Trang chủ" /></title>
+    <title><sitemesh:write property="Trang chủ"/></title>
 
     <!-- css -->
     <link href="<c:url value='/template/web/bootstrap/css/bootstrap.min.css' />" rel="stylesheet" type="text/css" media="all"/>
@@ -16,7 +16,7 @@
     <!-- header -->
     
     <div class="container">
-    	<dec:body/>
+        <sitemesh:write property="body"/>
     </div>
 
 	<!-- footer -->

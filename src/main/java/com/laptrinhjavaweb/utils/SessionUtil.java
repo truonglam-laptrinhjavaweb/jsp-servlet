@@ -1,6 +1,6 @@
 package com.laptrinhjavaweb.utils;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 public class SessionUtil {
 
