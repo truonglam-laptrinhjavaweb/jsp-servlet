@@ -1,1 +1,2 @@
-technology: jsp servlet jdbc
+technology: java ee 8
+
