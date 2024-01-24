@@ -1,0 +1,11 @@
+<sitemesh>
+
+<!-- Map decorators to path patterns. -->
+<mapping path="/*" decorator="web.jsp"/>
+<mapping path="/admin*" decorator="admin.jsp"/>
+<mapping path="/dang-nhap" decorator="login.jsp"/>
+
+<!-- Exclude path from decoration. -->
+<mapping path="/api*" exclude="true"/>
+
+</sitemesh>
